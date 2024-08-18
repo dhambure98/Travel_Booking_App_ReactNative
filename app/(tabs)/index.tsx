@@ -37,7 +37,7 @@ const Page = () => {
             <TouchableOpacity onPress={() => {}} style={{ marginLeft: 20 }}>
               <Image
                 source={{
-                  uri: "https://xsgames.co/randomusers/avatar.php?g=female",
+                  uri: "https://xsgames.co/randomusers/avatar.php?g=male",
                 }}
                 style={{ width: 40, height: 40, borderRadius: 10 }}
               />
@@ -64,7 +64,7 @@ const Page = () => {
       />
       <View style={[styles.container, { paddingTop: headerHeight }]}>
         <ScrollView showsVerticalScrollIndicator={false}>
-          <Text style={styles.headingTxt}>Explore The Beautiful World!</Text>
+          <Text style={styles.headingTxt}>Let's Explore the Sri Lanka!</Text>
 
           <View style={styles.searchSectionWrapper}>
             <View style={styles.searchBar}>

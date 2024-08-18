@@ -1,23 +1,44 @@
 [
   {
     "id": "1",
-    "name": "Holiday Travel Agency",
-    "image": "https://images.unsplash.com/photo-1516496636080-14fb876e029d?q=80&w=3388&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name": "One Life Adventures",
+    "image": "https://cdn.tourradar.com/s3/op/206x150/One_Life_Adventures-c8b3.png",
     "rating": 4.7,
     "reviews": 1450
   },
   {
     "id": "2",
-    "name": "Happy Tour Planners",
-    "image": "https://images.unsplash.com/photo-1618591362251-1c9f70b59192?q=80&w=3177&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name": "BH Lanka Tours",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQCruBi6CuZDRiJzb60VKl5alRaMSMq-iV1g&s",
     "rating": 4.8,
     "reviews": 650
   },
   {
     "id": "3",
-    "name": "Royal Tour & Travels",
-    "image": "https://images.unsplash.com/photo-1600468636011-c75ae69b7fcb?q=80&w=2625&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "name": "ASY Tours Sri Lanka",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_MFMNeKngPRAgru5la1S15XIP-n_kWU5SZcBb2lURKnaeJcZAjpRvlQ2Z2GrAqZjcQpI&usqp=CAU",
     "rating": 4.9,
     "reviews": 550
+  },
+  {
+    "id": "4",
+    "name": "Capital Lanka Tours",
+    "image": "https://cdn.tourradar.com/s3/op/206x150/capital-lanka-tours-8242.png",
+    "rating": 4.7,
+    "reviews": 680
+  },
+  {
+    "id": "5",
+    "name": "Beauty Lanka Travels",
+    "image": "https://cdn.tourradar.com/s3/op/206x150/beauty-lanka-travels-5683.png",
+    "rating": 4.5,
+    "reviews": 770
+  },
+  {
+    "id": "6",
+    "name": "Holiday Lanka Tours",
+    "image": "https://cdn.tourradar.com/s3/op/206x150/holiday-lanka-tours-1862.png",
+    "rating": 4.9,
+    "reviews": 810
   }
 ]

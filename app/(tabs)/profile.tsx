@@ -5,7 +5,7 @@ const ProfilePage = () => {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Image
-        source={{uri: 'https://example.com/profile-picture.png'}}
+        source={{uri: 'https://xsgames.co/randomusers/avatar.php?g=male'}}
         style={styles.profilePicture}
       />
       <Text style={styles.name}>Mille Anderson</Text>
