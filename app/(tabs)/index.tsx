@@ -37,7 +37,7 @@ const Page = () => {
             <TouchableOpacity onPress={() => {}} style={{ marginLeft: 20 }}>
               <Image
                 source={{
-                  uri: "https://xsgames.co/randomusers/avatar.php?g=male",
+                  uri: "https://img.freepik.com/premium-photo/profile-closeup-handsome-bearded-man-30s-with-tied-hair-white-t-shirt-smiling-while-resting-green-park_171337-37806.jpg",
                 }}
                 style={{ width: 40, height: 40, borderRadius: 10 }}
               />

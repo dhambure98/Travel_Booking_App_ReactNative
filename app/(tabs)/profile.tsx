@@ -5,16 +5,16 @@ const ProfilePage = () => {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Image
-        source={{uri: 'https://xsgames.co/randomusers/avatar.php?g=male'}}
+        source={{uri: 'https://img.freepik.com/premium-photo/profile-closeup-handsome-bearded-man-30s-with-tied-hair-white-t-shirt-smiling-while-resting-green-park_171337-37806.jpg'}}
         style={styles.profilePicture}
       />
-      <Text style={styles.name}>Mille Anderson</Text>
+      <Text style={styles.name}>Mike Anderson</Text>
       <Text style={styles.bio}>
-        Software Enginner at MCF Technologies
+        Human Resource Manager at Zachary Daniels UK
       </Text>
       <View style={styles.detailsContainer}>
         <Text style={styles.detailLabel}>Email:</Text>
-        <Text style={styles.detailText}>Mille56@gmail.com</Text>
+        <Text style={styles.detailText}>Mike50@gmail.com</Text>
       </View>
       <View style={styles.detailsContainer}>
         <Text style={styles.detailLabel}>Phone:</Text>
@@ -26,11 +26,11 @@ const ProfilePage = () => {
       </View>
       <View style={styles.detailsContainer}>
         <Text style={styles.detailLabel}>LinkedIn:</Text>
-        <Text style={styles.detailText}>linkedin.com/in/Mille56</Text>
+        <Text style={styles.detailText}>linkedin.com/in/Mike50</Text>
       </View>
       <View style={styles.detailsContainer}>
         <Text style={styles.detailLabel}>GitHub:</Text>
-        <Text style={styles.detailText}>github.com/Mille56</Text>
+        <Text style={styles.detailText}>github.com/Mike50</Text>
       </View>
     </ScrollView>
   )
