@@ -10,7 +10,7 @@ const DestinationCard = ({ destination }) => {
         <Text style={styles.description} numberOfLines={2}>{destination.description}</Text>
         <View style={styles.details}>
           <Text style={styles.rating}>Rating: {destination.rating}</Text>
-          <Text style={styles.price}>${destination.price} / night</Text>
+          <Text style={styles.price}>${destination.price} / Night</Text>
           <Text style={styles.location}>Location: {destination.location}</Text>
         </View>
       </View>

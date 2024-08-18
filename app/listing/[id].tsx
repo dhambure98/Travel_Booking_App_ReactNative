@@ -25,15 +25,23 @@ import Animated, {
   useAnimatedStyle,
   useScrollViewOffset,
 } from "react-native-reanimated";
-import { showDialog, showToast } from './Alert';
+
 const { width } = Dimensions.get("window");
 const IMG_HEIGHT = 300;
 
 const ListingDetails = () => {
   const { id } = useLocalSearchParams();
-  const listing: ListingType = (listingData as ListingType[]).find(
+  const listing: ListingType | undefined = (listingData as ListingType[]).find(
     (item) => item.id === id
   );
+
+  if (!listing) {
+    return (
+      <View style={styles.container}>
+        <Text style={styles.errorText}>Listing not found</Text>
+      </View>
+    );
+  }
 
   const router = useRouter();
 
@@ -270,5 +278,11 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "600",
     textTransform: "uppercase",
+  },
+  errorText: {
+    fontSize: 20,
+    color: Colors.red,
+    textAlign: "center",
+    marginTop: 50,
   },
 });
