@@ -27,7 +27,7 @@ export default function Layout() {
         }}
       />
       <Tabs.Screen
-        name="category"
+        name="Category"
         options={{
           tabBarIcon: ({ color }) => (
             <MaterialIcons name="space-dashboard" size={28} color={color} />

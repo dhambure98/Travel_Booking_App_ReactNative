@@ -22,7 +22,7 @@ export default function Example() {
     <SafeAreaView style={{ flex: 1, backgroundColor: '#f6f6f6' }}>
       <View style={styles.container}>
         <View style={styles.header}>
-          <Text style={styles.headerTitle}>Hi. Mike Anderson</Text>
+          <Text style={styles.headerTitle}>Hi. Akila Dhambure</Text>
         </View>
 
         <ScrollView>
@@ -34,8 +34,8 @@ export default function Example() {
               }}
               style={styles.profileAvatar} />
 
-            <Text style={styles.profileName}>Human Resource Manager at Zachary Daniels UK</Text>
-            <Text style={styles.profileEmail}>Mike.doe@mail.com</Text>
+            <Text style={styles.profileName}>QA Enginner at Zachary Daniels</Text>
+            <Text style={styles.profileEmail}>dhambure@gmail.com</Text>
 
             <TouchableOpacity
               onPress={() => {
